@@ -6,7 +6,6 @@ const buttonTranscript = document.querySelector('.btn1');
 const form = document.querySelector('.myForm');
 const audioPlay = document.querySelector('.music');
 
-
 const contentTranscription = document.querySelector('.transcription');
 const contentRegion = document.querySelector('.region');
 
@@ -31,7 +30,6 @@ btn.addEventListener('click', () => {
 
 async function test() {
   form.addEventListener('submit', async (e) => {
-    console.log(e.target.word.value);
     e.preventDefault();
     const response = await fetch('http://localhost:3000/', {
       method: 'POST',
@@ -43,8 +41,6 @@ async function test() {
       }),
     });
     const res = await response.json();
-    console.log(res);
-    console.log(res.entries.length);
 
     if (res.entries.length == 0) {
       alert('THIS WORD DOSE NOT EXIST !!!');
