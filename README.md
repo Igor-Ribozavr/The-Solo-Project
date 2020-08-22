@@ -1,4 +1,4 @@
-The Solo-project - 'Lingua-robot'
+Lingua-robot
 ===========
  
 Target
