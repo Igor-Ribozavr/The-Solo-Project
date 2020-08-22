@@ -1,4 +1,4 @@
-The Solo-project calls 'Lingua-robot'
+The Solo-project - 'Lingua-robot'
 ===========
  
 Target
