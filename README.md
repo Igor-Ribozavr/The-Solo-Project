@@ -1,2 +1,3 @@
-# The-Solo-Project
-The Lingua Robot
+Target
+===========
+Сreating a simple APP for 
